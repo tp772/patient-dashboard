@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patient Dashboard - Jessica Taylor</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="dashboard">
+    <header class="header">
+      <h1>Patient Dashboard</h1>
+      <h2>Jessica Taylor</h2>
+    </header>
+
+    <section class="patient-info">
+      <p><strong>Age:</strong> <span id="age"></span></p>
+      <p><strong>Insurance:</strong> <span id="insurance"></span></p>
+      <p><strong>Condition:</strong> <span id="condition"></span></p>
+    </section>
+
+    <section class="chart-section">
+      <h3>Blood Pressure History</h3>
+      <canvas id="bpChart" width="600" height="300"></canvas>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

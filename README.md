@@ -5,7 +5,6 @@
 This project is a single-page patient dashboard that fetches and displays medical information for Jessica Taylor from the Coalition Technologies Patient Data API. It includes a dynamic blood pressure chart using Chart.js.
 
 ## Features
-
 * Fetches patient data using **Basic Auth** from the live API.
 * Displays **basic patient information** (Age, Insurance, Conditions).
 * Renders a **blood pressure line chart** (Systolic & Diastolic) using Chart.js.
